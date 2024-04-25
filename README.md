@@ -50,8 +50,14 @@ https://github.com/gazebosim/gz-sim/blob/af73ebe7c8c693fd54e391f79c11bf9f24df264
 
 ### it make initial velocity along the axes setup 
 
-## Finally you can add: <enable_wind>true</enable_wind> you should add this to the model, which should be influenced by the wind
- I simulate zephyr airplane model. It's my example:
+## Finally you can add: 
+
+    <enable_wind>true</enable_wind>
+
+you should add this to the model, which should be influenced by the wind
+
+I simulate zephyr airplane model. It's my example:
+ 
     <include>
       <uri>model://zephyr_with_ardupilot</uri>
       <pose degrees="true">0 0 0.422 -90 0 180</pose>
