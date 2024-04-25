@@ -56,7 +56,7 @@ https://github.com/gazebosim/gz-sim/blob/af73ebe7c8c693fd54e391f79c11bf9f24df264
 
 you should add this to the model, which should be influenced by the wind
 
-I simulate zephyr airplane model. It's my example:
+I simulate zephyr airplane model. In my case:
  
     <include>
       <uri>model://zephyr_with_ardupilot</uri>
